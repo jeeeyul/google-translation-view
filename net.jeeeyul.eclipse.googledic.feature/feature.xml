@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="net.jeeeyul.eclipse.googledic.feature"
-      label="Google Dictionary for Eclipse"
+      label="Google Translation View by Jeeeyul"
       version="1.1.0.qualifier"
       provider-name="jeeeyul.net">
 
@@ -205,7 +205,7 @@ litigation.
    </license>
 
    <url>
-      <update label="Google Dictionary for Eclipse" url="http://google-dic-view.googlecode.com/svn/trunk/net.jeeeyul.eclipse.googledic.feature/build/repository"/>
+      <update label="Google Translation View by Jeeeyul" url="https://raw.github.com/jeeeyul/google-translation-view/master/net.jeeeyul.eclipse.googledic.updatesite/"/>
    </url>
 
    <plugin

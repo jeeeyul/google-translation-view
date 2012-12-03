@@ -4,7 +4,7 @@
 	<taskdef name="updateVersion" classname="task.UpdateVersionTask" classpath="bin" />
 
 	<property name="build" location="${basedir}/build" />
-	<property name="repository-name" value="Google Translate View from Jeeeyul" />
+	<property name="repository-name" value="Google Translation View by Jeeeyul" />
 	<property file="keystore.properties" />
 	<property name="feature-id" value="net.jeeeyul.eclipse.googledic.feature" />
 	<property name="update-project" value="net.jeeeyul.eclipse.googledic.updatesite" />
@@ -12,7 +12,7 @@
 
 	<target name="default" description="description" depends="clean, init">
 		<eclipse.buildScript elements="feature@${feature-id}" baselocation="${eclipse.home}" builddirectory="${basedir}/../" />
-		
+
 		<antcall target="executeBuildScripts" />
 		<antcall target="remove-generated-script" />
 
