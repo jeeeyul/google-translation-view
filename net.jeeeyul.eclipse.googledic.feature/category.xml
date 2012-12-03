@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/net.jeeeyul.eclipse.googledic.feature_1.0.0.qualifier.jar" id="net.jeeeyul.eclipse.googledic.feature" version="1.0.0.qualifier">
-      <category name="google-dic"/>
-   </feature>
-   <category-def name="google-dic" label="Google Dictionary for Eclipse"/>
-</site>
